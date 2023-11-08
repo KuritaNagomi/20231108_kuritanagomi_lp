@@ -322,19 +322,18 @@ h2{
 }
 
 .footer-img{
-    background-size: cover;
     display: flex;
     justify-content: space-between;
 }
 .recruit{
     position: relative;
-    background: url(../img/recruit.png) no-repeat;
+    background: url(../img/recruit.png) no-repeat 0/cover;
     width: 100vh;
     height: 30vh;
 }
 .interview{
     position: relative;
-    background: url(../img/interview.png) no-repeat;
+    background: url(../img/interview.png) no-repeat 0/cover;
     width: 100vh;
     height: 30vh;
 }
@@ -342,6 +341,7 @@ h2{
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
     text-decoration: none;
     color: #fff;
     font-size: 18px;
@@ -351,6 +351,7 @@ h2{
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
     text-decoration: none;
     color: #fff;
     font-size: 18px;
@@ -363,6 +364,7 @@ h2{
 .contact-text{
     position: relative;
     color: #696969;
+    font-weight: bold;
     margin: 50px auto 70px;
 }
 .contact-text::after{
@@ -371,7 +373,7 @@ h2{
     left: 0;
     right: 0;
     top: 30px;
-    width: 1px;
+    width: 1.5px;
     height: 30px;
     margin: auto;
     background-color: #c71565;
@@ -381,9 +383,10 @@ h2{
     padding: 20px 70px;
     text-decoration: none;
     color: #fff;
-    font-size: 12px;
+    font-size: 13px;
     background: linear-gradient(to right, #e9599a,#ab1357);
     border-radius: 30px;
+    box-shadow: 0 10px 0 #88174a;
 }
 .contact-btn::before {
     content: "";
