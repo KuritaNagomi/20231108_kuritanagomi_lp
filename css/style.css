@@ -322,7 +322,7 @@ h2{
 }
 
 .footer-img{
-    width: 100vh;
+    background-size: cover;
     display: flex;
     justify-content: space-between;
 }
@@ -336,7 +336,7 @@ h2{
     position: relative;
     background: url(../img/interview.png) no-repeat;
     width: 100vh;
-    height: 30vh
+    height: 30vh;
 }
 .recruit-link{
     position: absolute;
