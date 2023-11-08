@@ -224,10 +224,10 @@ h2{
     color: #696969;
     font-weight: bold;
 }
-.card{
+.card-parent{
     display: flex;
     justify-content: space-between;
-}
+} 
 .blog-card{
     width: 30%;
     border-radius: 10px;
@@ -361,15 +361,16 @@ h2{
     text-align: center;
 }
 .contact-text{
+    position: relative;
     color: #696969;
-    margin: 50px auto;
+    margin: 50px auto 70px;
 }
 .contact-text::after{
     content: "";
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;
+    top: 30px;
     width: 1px;
     height: 30px;
     margin: auto;
