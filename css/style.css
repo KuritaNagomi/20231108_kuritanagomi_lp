@@ -61,7 +61,8 @@ h2{
 }
 
 .list-news{
-    padding: 60px 25%;
+    margin: 50px 25%;
+    width: 50%;
     text-align: left;
 }
 .list-title{
@@ -82,6 +83,7 @@ h2{
     border-top: #c0c0c0 solid 2px;
     border-bottom: #c0c0c0 solid 2px;
     padding: 10px 0 40px;
+    font-size: 2vh;
 }
 .news__list-link{
     display: block;
@@ -89,6 +91,7 @@ h2{
     text-decoration: none;
     border-bottom: #d3d3d3 solid 1px;
     padding: 10px 0;
+    word-break: keep-all;
 }
 .news__list-date{
     color: #696969;
@@ -200,6 +203,12 @@ h2{
     font-size: 14px;
     padding: 10px 0;
     line-height: 20px;
+    text-align: left;
+}
+.card2 h4{
+    text-align: left;
+}
+.card3 h4{
     text-align: left;
 }
 
